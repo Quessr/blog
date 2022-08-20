@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 const Home = () => {
   return (
-    <div>
+    <div className='h-screen text-5xl bg-purple-100 overflow-y-scroll'>
       <Header />
       <HomeContainer />
     </div>

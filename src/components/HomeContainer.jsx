@@ -3,7 +3,7 @@ import HomeList from './HomeList'
 
 const HomeContainer = () => {
   return (
-    <div>
+    <div className='h-full'>
       <HomeNavbar />
       <HomeList />
     </div>
